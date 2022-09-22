@@ -1,0 +1,121 @@
+@font-face {
+    font-family: simplifica;
+    src: url(Fonts/SIMPLIFICA-Typeface.ttf);
+}
+
+.title{
+    font-family: simplifica;
+    font-size: 100px;
+    background-color: #ffce29;
+    width: 100%;
+    padding:150px 0;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+fieldset{
+    margin: auto;
+    border: 20%;
+    width: 30%;
+}
+
+form{
+    padding: 70px;
+
+}
+
+legend{
+    font-size: 20px;
+}
+
+label{
+    display: inline;
+    padding: 5px;
+}
+.email{
+    padding-left: 27px;
+    
+}
+
+
+.header{
+ text-align: right;
+ margin-right: 40px;
+ padding:20px 0;
+ letter-spacing: 1px;
+ word-spacing: 20px;
+}
+
+.favorite-sites{
+    word-spacing: -1px;
+}
+
+
+.block1{
+    display: flex;
+    position: relative;
+
+
+}
+.block2{
+    display: flex;
+    position: relative;
+
+
+
+}
+.block3{
+    display: flex;
+    position: relative;
+    margin-bottom: 100px;
+
+
+}
+img{
+    width: 250px; 
+    height: 140px;
+    padding: 20px;
+
+}
+p{
+    width: 30%; 
+    height: 100px;
+    align-items: center;
+    line-height: 20px;
+
+}
+
+form{
+    margin-bottom: 100px;
+}
+.mainblock{
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+div + div{
+    margin-bottom: 10px;
+}
+
+.firstname{
+    margin-bottom: 10px;
+}
+
+.sites{
+    font-size: 20px; 
+    padding: 10px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    line-height: 50px;
+
+}
+
+.pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-bottom: 100px;
+}
